@@ -1,0 +1,80 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Tom1",
+      "lastName": "Cruise"
+    },
+    {
+      "id": 4,
+      "firstName": "Tom4",
+      "lastName": "Cruise"
+    },
+    {
+      "id": 5,
+      "firstName": "test",
+      "lastName": "test"
+    }
+  ],
+  "boards": [
+    {
+      "id": 3,
+      "title": "글제목3",
+      "writer": "작성자",
+      "hit": 0
+    },
+    {
+      "id": 4,
+      "title": "글제목4",
+      "writer": "작성자",
+      "hit": 0
+    },
+    {
+      "id": 5,
+      "title": "글제목5",
+      "writer": "작성자",
+      "hit": 0
+    },
+    {
+      "id": 6,
+      "title": "글제목6",
+      "writer": "작성자",
+      "hit": 0
+    },
+    {
+      "id": 7,
+      "title": "글제목7",
+      "writer": "작성자",
+      "hit": 0
+    },
+    {
+      "id": 8,
+      "title": "글제목8",
+      "writer": "작성자",
+      "hit": 0
+    },
+    {
+      "id": 9,
+      "title": "글제목9",
+      "writer": "작성자",
+      "hit": 0
+    }
+  ]
+}

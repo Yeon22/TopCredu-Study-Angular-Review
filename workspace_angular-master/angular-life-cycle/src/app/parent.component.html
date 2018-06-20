@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+
+<button (click)="toggle()">shouldShow toggle</button>
+<button (click)="title='부모컴포넌트'">Send Title</button>
+<br/><br/>
+
+<fieldset>
+  <!-- 자식 컴포넌트에게 파라미터를 전달하지 않고 호출한다. -->
+  <!-- <app-child></app-child> -->
+
+  <!-- 프로퍼티바인딩 형태로 전달. [키]="벨류" 형태 -->
+  <!-- 디렉티브가 단독으로 []없이 있을 때는 기동만 한다는 뜻 -->
+  <!-- 디렉티브가 []가 있고 오른쪽에 값이 있다면 오른쪽 값을 전달한다는 뜻 -->
+  <app-child [prop]="shouldShow" [content]="title"
+    *ngIf="shouldShow"></app-child>
+  <!--
+    디렉티브 2가지
+    1. 구조 디렉티브 : *ngIf, *ngFor, *ngSwitch(*가 붙는다)
+    2. 속성 디렉티브 : 나머지
+    앵귤러는 여러개의 디렉티브가 있을 때 구조 디렉티브를 먼저 본다.
+    구조 디렉티브가 true이면 속성 디렉티브를 본다.
+   -->
+
+</fieldset>

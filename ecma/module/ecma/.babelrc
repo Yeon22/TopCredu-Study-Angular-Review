@@ -1,0 +1,5 @@
+{
+  "only" : ["*.es6"],
+  "presets" : ["env"],
+  "ignore" : ["node_modules", "build"]
+}
